@@ -30,6 +30,7 @@ main {
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding-top: 1rem;
 }
 
 .attribution.a {
@@ -38,6 +39,10 @@ main {
 
 p {
   font-size: 15px;
-  color: hsl(212, 45%, 89%);
+  color: hsl(220, 15%, 55%);
   font-weight: 400;
+}
+
+h1 {
+  font-weight: 700;
 }
