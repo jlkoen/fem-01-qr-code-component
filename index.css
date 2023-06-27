@@ -3,19 +3,22 @@ body {
   font-family: 'Outfit', sans-serif;
   text-align: center;
   display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 h1 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
-.outer {
+main {
   display: flex;
-  margin: 20px auto;
   border: 1px solid white;
   border-radius: 20px;
   align-items: center;
   max-width: 300px;
-  padding: 15px;
+  padding: 1rem;
   background-color: hsl(0, 0%, 100%);
 }
 
@@ -31,4 +34,10 @@ h1 {
 
 .attribution.a {
   color: hsl(228, 45%, 44%);
+}
+
+p {
+  font-size: 15px;
+  color: hsl(212, 45%, 89%);
+  font-weight: 400;
 }
